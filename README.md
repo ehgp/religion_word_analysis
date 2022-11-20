@@ -27,6 +27,10 @@ Documentation found [here](https://ehgp.github.io/religion_word_analysis/)
 
 pipenv install
 
+If you have changed dependencies then:
+pipenv --rm
+pipenv --clear
+
 ## Execution
 
 pipenv run python main.py

@@ -6,7 +6,7 @@ verify_ssl = true
 [packages]
 ipython = {version = "*", index="pypi"}
 pandas = {version = "==1.3.3", index="pypi"}
-numpy = {version = "==1.21.0", index="pypi"}
+numpy = {version = ">=1.22", index="pypi"}
 pathlib2 = {version = "==2.3.5", index="pypi"}
 pyyaml = {version = "==5.4.1", index="pypi"}
 black = {version = "==22.3.0", index="pypi"}
@@ -16,4 +16,4 @@ Sphinx = {version = "==4.4.0", index="pypi"}
 sphinx-rtd-theme = {version = "==1.0.0", index="pypi"}
 wordcloud = {version = "==1.8.2.2", index="pypi"}
 pyPDF2 = {version = "==2.11.1", index="pypi"}
-nltk = {version = "==3.6.5", index="pypi"}
+nltk = {version = ">=3.6.6", index="pypi"}

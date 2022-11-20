@@ -1,18 +1,19 @@
 """Main."""
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud
-from PyPDF2 import PdfReader
-import os
-import re
-from nltk.corpus import stopwords
-from nltk import word_tokenize
-from nltk.probability import FreqDist
-import numpy as np
-import yaml
 import datetime as dt
 import logging
 import logging.config
+import os
+import re
 from pathlib import Path
+
+import matplotlib.pyplot as plt
+import numpy as np
+import yaml
+from nltk import word_tokenize
+from nltk.corpus import stopwords
+from nltk.probability import FreqDist
+from PyPDF2 import PdfReader
+from wordcloud import WordCloud
 
 # Logging
 path = Path(os.getcwd())
