@@ -34,3 +34,7 @@ pipenv run python main.py
 ## Author
 
 EHGP
+
+## TODO
+
+Sentiment Analysis for these static scriptures
