@@ -85,6 +85,10 @@ stopwords_list.extend(
         "thus",
         "must",
         "therefore",
+        "certainly",
+        "even",
+        "went",
+        "go",
     ]
 )
 
@@ -148,6 +152,7 @@ for file in pdf_files:
                 .replace("theupanishads", "")
                 .replace("ofthe", "of the")
                 .replace("themind", "the mind")
+                .replace("thesupreme", "the supreme")
             )
             with open("%s.txt" % (file), "a+", encoding="utf-8") as myfile:
                 myfile.write(text)
