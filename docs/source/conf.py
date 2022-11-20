@@ -12,8 +12,8 @@ import datetime as dt
 sys.path.insert(0, os.path.abspath("../.."))
 # # -- Project information -----------------------------------------------------
 project = "Religious Words Analysis"
-authors = "Erick Garcia"
-copyright = "%s Erick Garcia. All rights reserved." % (dt.date.today().year)
+authors = "EHGP"
+copyright = "%s EHGP. All rights reserved." % (dt.date.today().year)
 # The full version, including alpha/beta/rc tags
 release = "0.1.0"
 # -- General configuration ---------------------------------------------------
@@ -45,11 +45,11 @@ html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     "display_version": True,
     "collapse_navigation": False,
-    "logo_only": True,
+    # "logo_only": True,
 }
 # Image for the top of the sidebar & favicon
-html_logo = "_static/umbc_logo.jpg"
-html_favicon = "_static/umbc_logo.jpg"
+# html_logo = "_static/logo.jpg"
+# html_favicon = "_static/logo.jpg"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

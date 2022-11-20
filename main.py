@@ -8,6 +8,27 @@ from nltk.corpus import stopwords
 from nltk import word_tokenize
 from nltk.probability import FreqDist
 import numpy as np
+import yaml
+import datetime as dt
+import logging
+import logging.config
+from pathlib import Path
+
+# Logging
+path = Path(os.getcwd())
+Path("log").mkdir(parents=True, exist_ok=True)
+log_config = Path(path, "log_config.yaml")
+timestamp = "{:%Y_%m_%d_%H_%M_%S}".format(dt.datetime.now())
+with open(log_config, "r") as log_file:
+    config_dict = yaml.safe_load(log_file.read())
+    # Append date stamp to the file name
+    log_filename = config_dict["handlers"]["file"]["filename"]
+    base, extension = os.path.splitext(log_filename)
+    base2 = "_" + os.path.splitext(os.path.basename(__file__))[0] + "_"
+    log_filename = "{}{}{}{}".format(base, base2, timestamp, extension)
+    config_dict["handlers"]["file"]["filename"] = log_filename
+    logging.config.dictConfig(config_dict)
+logger = logging.getLogger(__name__)
 
 stopwords_list = stopwords.words("english")
 # Update the stopwords list
@@ -83,7 +104,7 @@ religious_sources_mod_text_files = [
     "The_Upanishads_Hinduism.txt",
 ]
 
-print("Removing existing files to start fresh...")
+logger.info("Removing existing files to start fresh...")
 for file in religious_sources_mod_text_files:
     os.remove(os.path.join(religious_sources, file))
 for file in png_plot_files:
@@ -92,7 +113,7 @@ for file in png_wordcloud_files:
     os.remove(os.path.join(wordclouds, file))
 
 os.chdir(religious_sources)
-print("Translating PDFs to text files...")
+logger.info("Translating PDFs to text files...")
 pdf_files = [f for f in os.listdir(religious_sources) if f.endswith(".pdf")]
 for file in pdf_files:
     reader = PdfReader(file)
@@ -138,7 +159,7 @@ for file in pdf_files:
             with open("%s.txt" % (file), "a+", encoding="utf-8") as myfile:
                 myfile.write(text)
 
-print("Modifying Text Files...")
+logger.info("Modifying Text Files...")
 text_files = [f for f in os.listdir(religious_sources) if f.endswith(".txt")]
 for file in text_files:
     if file == "Christian_Bible.txt":
@@ -162,7 +183,7 @@ for file in text_files:
     else:
         continue
 
-print("Creating Bar Charts with 10 most common words and Word Clouds...")
+logger.info("Creating Bar Charts with 10 most common words and Word Clouds...")
 os.chdir(cwd)
 text_files = [f for f in os.listdir(religious_sources) if f.endswith(".txt")]
 for file in text_files:
