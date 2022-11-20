@@ -1,4 +1,4 @@
-# Religious Word Analysis
+# Religion Word Analysis
 
 This project was inspired by this Reddit [post](https://www.reddit.com/r/dataisbeautiful/comments/mxu578/oc_remix_a_wordcloud_for_each_of_the_six_largest/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button)
 

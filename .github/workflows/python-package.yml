@@ -117,6 +117,7 @@ jobs:
       run: |
         pip install --upgrade pip --quiet
         pip install -r requirements.txt --quiet
+        python -c "import nltk; nltk.download('stopwords')"
         sphinx-build -b html docs/source docs/build/html
 
     - name: Upload artifacts

@@ -1,6 +1,6 @@
-.. Religious Word Analysis
+.. Religion Word Analysis
 
-Religious Word Analysis
+Religion Word Analysis
 ================================================================
 .. toctree::
    :maxdepth: 2
