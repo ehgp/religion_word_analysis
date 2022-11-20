@@ -10,9 +10,9 @@ This code produces bar plots of the 10 most common words in the scriptures and a
 
 Pipenv<br>
 NLTK Tokenization<br>
-Regex<br>
+Regular Expression<br>
 PyPDF2<br>
-Github Pages Sphinx Documentation
+GitHub Pages Sphinx Documentation
 
 ## Requirements
 
@@ -27,6 +27,10 @@ Documentation found [here](https://ehgp.github.io/religion_word_analysis/)
 
 pipenv install
 
+If you have changed dependencies then:
+pipenv --rm
+pipenv --clear
+
 ## Execution
 
 pipenv run python main.py
@@ -34,3 +38,7 @@ pipenv run python main.py
 ## Author
 
 EHGP
+
+## TODO
+
+Sentiment Analysis for these static scriptures
