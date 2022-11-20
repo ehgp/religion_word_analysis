@@ -10,9 +10,9 @@ This code produces bar plots of the 10 most common words in the scriptures and a
 
 Pipenv<br>
 NLTK Tokenization<br>
-Regex<br>
+Regular Expression<br>
 PyPDF2<br>
-Github Pages Sphinx Documentation
+GitHub Pages Sphinx Documentation
 
 ## Requirements
 
