@@ -17,3 +17,4 @@ sphinx-rtd-theme = {version = "==1.0.0", index="pypi"}
 wordcloud = {version = "==1.8.2.2", index="pypi"}
 pyPDF2 = {version = "==2.11.1", index="pypi"}
 nltk = {version = ">=3.6.6", index="pypi"}
+recommonmark = {version = "==0.7.1", index="pypi"}
