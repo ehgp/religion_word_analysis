@@ -27,13 +27,64 @@ While chatting with my brother-in-law, we started wondering if words in differen
 [![](/_static/bar_plot_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Christian_Bible.jpg)<br>
 **Figure 1** - Christian Bible Bar Plot with 10 most common words
 
+[![](/_static/bar_plot_New_Testament_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_New_Testament_Christian_Bible.jpg)<br>
+**Figure 2** - New Testament Christian Bible Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Old_Testament_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Old_Testament_Christian_Bible.jpg)<br>
+**Figure 3** - Old Testament Christian Bible Bar Plot with 10 most common words
+
 [![](/_static/bar_plot_Dhammapada_Buddism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Dhammapada_Buddism.jpg)<br>
-**Figure 2** - Dhammapada Buddism Bar Plot with 10 most common words
+**Figure 4** - Dhammapada Buddism Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Four_Vedas_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Four_Vedas_Hinduism.jpg)<br>
+**Figure 5** - Four Vedas Hinduism Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Quran_Islam.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Quran_Islam.jpg)<br>
+**Figure 6** - Quran Islam Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Siri_Guru_Granth_Sahib_Sikhism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Siri_Guru_Granth_Sahib_Sikhism.jpg)<br>
+**Figure 7** - Siri Guru Granth Sahib Sikhism Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Srimad_Bhagavad_Gita_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Srimad_Bhagavad_Gita_Hinduism.jpg)<br>
+**Figure 8** - Srimad Bhagavad Gita Hinduism Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_Tanakh_Judaism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_Tanakh_Judaism.jpg)<br>
+**Figure 9** - Tanakh Judaism Bar Plot with 10 most common words
+
+[![](/_static/bar_plot_The_Upanishads_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/bar_plot_The_Upanishads_Hinduism.jpg)<br>
+**Figure 10** - The Upanishads Hinduism Bar Plot with 10 most common words
 
 ## Word Clouds
 
 [![](/_static/wordcloud_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Christian_Bible.jpg)<br>
-**Figure 1** - Christian Bible Word Cloud
+**Figure 11** - Christian Bible Word Cloud
+
+[![](/_static/wordcloud_New_Testament_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_New_Testament_Christian_Bible.jpg)<br>
+**Figure 12** - New Testament Christian Bible Word Cloud
+
+[![](/_static/wordcloud_Old_Testament_Christian_Bible.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Old_Testament_Christian_Bible.jpg)<br>
+**Figure 13** - Old Testament Christian Bible Word Cloud
+
+[![](/_static/wordcloud_Dhammapada_Buddism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Dhammapada_Buddism.jpg)<br>
+**Figure 14** - Dhammapada Buddism Word Cloud
+
+[![](/_static/wordcloud_Four_Vedas_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Four_Vedas_Hinduism.jpg)<br>
+**Figure 15** - Four Vedas Hinduism Word Cloud
+
+[![](/_static/wordcloud_Quran_Islam.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Quran_Islam.jpg)<br>
+**Figure 16** - Quran Islam Word Cloud
+
+[![](/_static/wordcloud_Siri_Guru_Granth_Sahib_Sikhism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Siri_Guru_Granth_Sahib_Sikhism.jpg)<br>
+**Figure 17** - Siri Guru Granth Sahib Sikhism Word Cloud
+
+[![](/_static/wordcloud_Srimad_Bhagavad_Gita_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Srimad_Bhagavad_Gita_Hinduism.jpg)<br>
+**Figure 18** - Srimad Bhagavad Gita Hinduism Word Cloud
+
+[![](/_static/wordcloud_Tanakh_Judaism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_Tanakh_Judaism.jpg)<br>
+**Figure 19** - Tanakh Judaism Word Cloud
+
+[![](/_static/wordcloud_The_Upanishads_Hinduism.png)](https://github.com/ehgp/religion_word_analysis/blob/main/docs/source/_static/wordcloud_The_Upanishads_Hinduism.jpg)<br>
+**Figure 20** - The Upanishads Hinduism Word Cloud
 
 ## References
 
