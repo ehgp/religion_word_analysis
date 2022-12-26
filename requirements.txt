@@ -69,7 +69,7 @@ traitlets==5.5.0
 typing_extensions==4.4.0
 urllib3==1.26.12
 wcwidth==0.2.5
-wheel==0.37.1
+wheel==0.38.1
 wordcloud==1.8.2.2
 zipp==3.10.0
 recommonmark==0.7.1
