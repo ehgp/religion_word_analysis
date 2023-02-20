@@ -11,7 +11,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath("../.."))
 # # -- Project information -----------------------------------------------------
-project = "Religion Words Analysis"
+project = "Religion Word Analysis"
 authors = "EHGP"
 copyright = "%s EHGP. All rights reserved." % (dt.date.today().year)
 # The full version, including alpha/beta/rc tags
