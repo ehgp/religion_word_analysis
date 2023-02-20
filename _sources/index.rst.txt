@@ -1,6 +1,7 @@
 .. raw:: html
    <html>
       <head>
+      <link rel="canonical" href="https://ehgp.github.io/religion_word_analysis/index">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6937005527826464"
      crossorigin="anonymous"></script>
       </head>
