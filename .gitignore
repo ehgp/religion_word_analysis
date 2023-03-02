@@ -134,3 +134,4 @@ dmypy.json
 **/creds copy.yaml
 **/*.log
 **/.VSCodeCounter
+Pipfile.lock
